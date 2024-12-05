@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'norsebold';
+    src: url('norse-bold-webfont.woff2') format('woff2'),
+         url('norse-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {
+    font-size: 16px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.main {
+    display: inline;
+}
+
+.container {
+    position: relative;
+
+}
+
+.BackgroundPicture {
+    position: absolute;
+    width: 40vw;
+    height: 100vh;
+}
+
+.OdinLogo {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 10.5vw;
+    top: 20vh;
+}
+
+.text {
+    position: absolute; 
+    color: white;
+    top: 23.5vh;
+    left: 19vw;
+    font-family: 'norsebold', sans-serif;
+    font-size: 55px;
+      
+}
+
+.LogoBackground {
+    position: absolute;
+    width: 40vw;
+    height: 30vh;
+    top: 15vh;
+    background: black;
+    opacity: 0.4;
+}
+
+.secondSection {
+    border: 0.1px solid white;
+    position: relative;
+    width: 60vw;
+    height: 100vh;
+    left: 40vw;
+    display: inline;
+}
+
+.FirstText {
+    margin-left: 20px;
+    margin-top: 18px;
+    font-weight: bold;
+    line-height: 18px;
+    max-width: fit-content;
+}
+
+.FirstText1 {
+    margin-left: 20px;
+    font-weight: bold;
+    margin-top: 12px;
+    max-width: fit-content;
+}
+
+.SecondText {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    max-width: fit-content;
+}
+
+.maintwo {
+    display: flex;
+    max-width: fit-content;
+}
+
+.leftSide {
+    width: 25vw;
+    height: 30vh;
+    margin-left: 20px;
+}
+
+.rightSide {
+    width: 25vw; 
+    height: 30vh;
+}
+
+label {
+    font-size: 9px;
+    display: block;
+    margin-top: 8px;
+    color: rgb(77, 76, 75);
+}
+
+input {
+    border: 1px solid #E5E7EB;
+    border-radius: 3px;
+}
+
+input:invalid {
+    border: 0.8px solid red
+}
+
+input:focus{ 
+    outline: none;
+    border: 1px solid blue;
+    box-shadow: 0.1px 0.1px ;
+}
+
+.line {
+    margin-top: 10px;
+    max-width: 60vw;
+    border: 0.5px solid #E5E7EB;
+    box-shadow: 1px 1px 2px 1px #E5E7EB;
+}
+
+button{ 
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 5px 27px;
+    background-color: #596D48;
+    border: 1px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.final{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+p{
+    font-size: 11px;
+}
+
+.final2{
+    margin-left: 3px;
+    color: #596D48;
+    font-weight: bold;
+}
