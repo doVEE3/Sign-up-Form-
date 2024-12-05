@@ -47,8 +47,8 @@ img {
 
 .OdinLogo {
     position: absolute;
-    width: 70px;
-    height: 70px;
+    width: 210px;
+    height: 210px;
     left: 10.5vw;
     top: 20vh;
 }
@@ -59,7 +59,7 @@ img {
     top: 23.5vh;
     left: 19vw;
     font-family: 'norsebold', sans-serif;
-    font-size: 55px;
+    font-size: 165px;
       
 }
 
@@ -82,23 +82,24 @@ img {
 }
 
 .FirstText {
-    margin-left: 20px;
-    margin-top: 18px;
+    margin-left: 60px;
+    margin-top: 72px;
     font-weight: bold;
-    line-height: 18px;
+    line-height: 45px;
     max-width: fit-content;
 }
 
 .FirstText1 {
-    margin-left: 20px;
+    margin-left: 60px;
     font-weight: bold;
-    margin-top: 12px;
+    margin-top: 36px;
     max-width: fit-content;
 }
 
 .SecondText {
-    margin-left: 20px;
-    margin-bottom: 10px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+    margin-top: 40px;
     font-weight: bold;
     max-width: fit-content;
 }
@@ -111,7 +112,7 @@ img {
 .leftSide {
     width: 25vw;
     height: 30vh;
-    margin-left: 20px;
+    margin-left: 60px;
 }
 
 .rightSide {
@@ -120,15 +121,19 @@ img {
 }
 
 label {
-    font-size: 9px;
+    font-size: 27px;
     display: block;
-    margin-top: 8px;
-    color: rgb(77, 76, 75);
+    margin-top: 30px;
+    color: rgb(75, 77, 75);
+    margin-bottom: 5px;
 }
 
 input {
     border: 1px solid #E5E7EB;
     border-radius: 3px;
+    width: 19vw;
+    padding: 14px 14px
+
 }
 
 input:invalid {
@@ -142,16 +147,17 @@ input:focus{
 }
 
 .line {
-    margin-top: 10px;
+    margin-top: 30px;
     max-width: 60vw;
     border: 0.5px solid #E5E7EB;
     box-shadow: 1px 1px 2px 1px #E5E7EB;
 }
 
 button{ 
-    margin-top: 10px;
-    margin-left: 20px;
-    padding: 5px 27px;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-left: 60px;
+    padding: 15px 60px;
     background-color: #596D48;
     border: 1px;
     border-radius: 5px;
@@ -161,12 +167,12 @@ button{
 
 .final{
     display: flex;
-    margin-top: 15px;
-    margin-left: 20px;
+    margin-top: 35px;
+    margin-left: 60px;
 }
 
 p{
-    font-size: 11px;
+    font-size: 33px;
 }
 
 .final2{
